@@ -1,0 +1,35 @@
+    table, th, td, caption{
+    border: 1px solid; 
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; */
+} 
+
+table{
+    width: 55%;
+}
+ .time{
+    text-align: center;
+} 
+
+
+#button-div{
+    
+    width: 55%;
+    margin-top: 15px;
+    text-align: center;
+}
+
+#button-boys{
+    background-color: cornflowerblue;
+    border-radius: 5px 0 ;
+    border: 2px solid cornflowerblue;
+}
+
+#button-girls{
+    background-color: pink;
+    border-radius: 5px 0 ;
+    border: 2px solid pink;
+}
+
+
