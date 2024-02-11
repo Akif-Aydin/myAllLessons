@@ -17,7 +17,7 @@
             padding: 0;
         }
     </style>
-    <span>span span span</span>
+    <!-- <span>span span span</span>
     <p style="background-color: red;">Bu bir block elementtir</p>
     <span>span</span>
 
@@ -31,7 +31,7 @@
         }
     </style>
 
-    <p class="p">Cevap vermeyiniz</p>
+    <p class="p">Cevap vermeyiniz</p> -->
 
     <style>
         .p{
@@ -39,9 +39,9 @@
         }
     </style>
 
-<div id="first_div">
+<!-- <div id="first_div">
     <div id="inner_div">Bu bir inner div</div>
-</div>
+</div> -->
 
 <style>
     #first_div{
@@ -57,6 +57,50 @@
     }
     
 </style>
+ 
+<br>
+<br>
+
+<style>
+
+    #main_container{
+        /* display: flex; */
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+    }
+
+    .div{
+        /* width: 30%; */
+        /* float: left; */
+        /* display: inline-block; */
+        /* height: min-content; */
+    }
+</style>
+
+<main id="main_container" style="background-color: cadetblue; 
+height: 500px;
+padding-top: 50px;">
+    <div class="div" style="background-color: red;">
+    <h2>Ankara</h2>
+            <p>Tr nin bir sehridir </p>
+            <p> Nüfusu 8 milyondur</p>
+    
+    </div>
+
+    <div class="div" style="background-color: blue;"> 
+        <h2>Istanbul</h2>
+                <p>Tr nin bir sehridir </p>
+                <p> Nüfusu 8 milyondur</p>
+        
+        </div>
+
+        <div class="div" style="background-color: yellow;">
+            <h2>Bursa</h2>
+                    <p>Tr nin bir sehridir </p>
+                    <p> Nüfusu 8 milyondur</p>     
+        </div>
+</main>
+
 
 
 
