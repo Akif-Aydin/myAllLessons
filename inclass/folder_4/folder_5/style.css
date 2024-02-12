@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#main_container{
+    display: flex;
+    /* background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    flex-direction: row-reverse; */
+    /* flex-wrap: wrap; */
+    flex-flow: row wrap;
+}
+
+.div{
+    height: 200px;
+    background-color: blueviolet;
+    width: 20%;
+    border: 1px solid;
+    color: white;
+}
+
+/* #div_2{
+    height: 200px;
+    background-color: brown;
+    width: 30%;
+}
+
+#div_3{
+    height: 200px;
+    background-color: yellow;
+    width: 30%;
+} */
+
