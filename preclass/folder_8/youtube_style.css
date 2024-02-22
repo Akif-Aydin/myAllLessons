@@ -1,0 +1,116 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+#Arama{
+    width: 100%;
+    height: 10% ;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+#Liste{
+    width: 15%;
+    height: 100%;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#Liste img{
+    width: 40%;
+}
+
+#Search{
+    width: 50%;
+    height: 100%;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#Search_Div_1{
+    width: 70%;
+    height: 50%;
+    background-color: gray;
+}
+
+#Search_Div_1 input{
+    width: 80%;
+    height: 85%;
+}
+
+#Search_Div_2{
+    width: 5%;
+    height: 50%;
+    background-color: gray;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+
+}
+
+#Harf{
+    width: 15%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-evenly;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+#Harf div{
+    width: 20%;
+    height: 40%;
+    /* background-color: green; */
+}
+
+#Harf_Div_3{
+    font-size: 25px;
+    text-align: center;
+    background-color: gray;
+    border-radius: 47%;
+}
+
+
+
+#Ana_Gövde{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+#Sekme{
+    width: 15%;
+    height: auto;
+    background-color: blue;
+    /* display: flex; */
+}
+
+#Navbar_Gövde{
+    width: 85%;
+    height: 90%;
+    /* display: flex; */
+}
+
+#Navbar{
+    width: 100%;
+    height: 15% ;
+    background-color: brown;
+    /* display: flex; */
+}
+
+#Gövde{
+    width: 100%;
+    height: 95% ;
+    background-color: bisque;
+    /* display: flex; */
+}
